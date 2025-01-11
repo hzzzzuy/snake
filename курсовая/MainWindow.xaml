@@ -1,0 +1,21 @@
+﻿<Window x:Class="курсовая.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:курсовая"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFA49393">
+        <Button Content="Show Leaderboard" HorizontalAlignment="Left" Height="31" Margin="97,137,0,0" VerticalAlignment="Top" Width="152" FontSize="18" Click="ShowLeaderboardButton_Click" Background="#FFA49393" Foreground="#FF0A5434" BorderBrush="{x:Null}"/>
+        <Button Content="Add Player" HorizontalAlignment="Left" Height="31" Margin="97,194,0,0" VerticalAlignment="Top" Width="152" FontSize="18" Click="AddPlayerButton_Click" Background="{x:Null}" Foreground="#FF0A5434" BorderBrush="{x:Null}"/>
+        <Button Content="Remove Player" HorizontalAlignment="Left" Height="31" Margin="97,250,0,0" VerticalAlignment="Top" Width="152" FontSize="18" Click="RemovePlayerButton_Click" Background="{x:Null}" Foreground="#FF0A5434" BorderBrush="{x:Null}"/>
+        <Label Content="Name" HorizontalAlignment="Left" Height="40" Margin="400,27,0,0" VerticalAlignment="Top" Width="212" FontSize="18" Foreground="#FF0A5434" Background="{x:Null}"/>
+        <TextBox x:Name="NamePlayer" HorizontalAlignment="Left" Height="35" Margin="400,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="272" FontSize="18" Foreground="#FF0A5434" Background="#80AE1F1F" BorderBrush="{x:Null}" SelectionBrush="{x:Null}"/>
+        <TextBox Name="OutputTextBox" HorizontalAlignment="Left" Height="257" Margin="400,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="272" FontSize="18" Background="#80AE1F1F" Foreground="#FF0A5434" SelectionBrush="{x:Null}" BorderBrush="{x:Null}"/>
+        <Button Content="Classic" HorizontalAlignment="Left" Height="32" Margin="97,306,0,0" VerticalAlignment="Top" Width="152" Click="Button_Click" FontSize="18" Background="{x:Null}" Foreground="#FF0A5434" BorderBrush="{x:Null}"/>
+        <Button Content="Advanced" HorizontalAlignment="Left" Height="31" Margin="97,363,0,0" VerticalAlignment="Top" Width="152" Click="Button_Click_1" FontSize="18" Background="{x:Null}" Foreground="#FF0A5434" BorderBrush="{x:Null}"/>
+        <Image Margin="97,-8,558,297" Source="/free-icon-snake-427533.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>
